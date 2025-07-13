@@ -48,20 +48,21 @@ TDD se basa en tres pasos fundamentales:
 - Verifica que se use smsSender si el destinatario es un número.
 - Usa @Mock, @InjectMocks, @ExtendWith(MockitoExtension.class) y verify() de Mockito.
 ---
+
 ## 📁 Estructura del proyecto
 
 NotificationCenter/
 ├── src/
-│   ├── main/
-│   │   └── java/cl/kibernumacademy/
-│   │       ├── NotificationService.java
-│   │       ├── EmailSender.java (interface)
-│   │       ├── SmsSender.java (interface)
-│   │       ├── EmailSenderImpl.java
-│   │       └── SmsSenderImpl.java
-│   └── test/
-│       └── java/cl/kibernumacademy/
-│           └── NotificationServiceTest.java
+│ ├── main/
+│ │ └── java/cl/kibernumacademy/
+│ │ ├── NotificationService.java
+│ │ ├── EmailSender.java (interface)
+│ │ ├── SmsSender.java (interface)
+│ │ ├── EmailSenderImpl.java
+│ │ └── SmsSenderImpl.java
+│ └── test/
+│ └── java/cl/kibernumacademy/
+│ └── NotificationServiceTest.java
 ├── pom.xml
 └── README.md
 
