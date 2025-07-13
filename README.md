@@ -46,24 +46,6 @@ TDD se basa en tres pasos fundamentales:
 
 ---
 
-## 📁 Estructura del Proyecto
-
-```text
-NotificationCenter/
-├── src/
-│   ├── main/
-│   │   └── java/cl/kibernumacademy/
-│   │       ├── NotificationService.java
-│   │       ├── EmailSender.java         (interface)
-│   │       ├── SmsSender.java           (interface)
-│   │       ├── EmailSenderImpl.java
-│   │       └── SmsSenderImpl.java
-│   └── test/
-│       └── java/cl/kibernumacademy/
-│           └── NotificationServiceTest.java
-├── pom.xml
-└── README.md
-
 
 ## 🧪 Tecnologías utilizadas
 
@@ -80,3 +62,5 @@ NotificationCenter/
 
 ```bash
 git clone  https://github.com/kenkairon/Modulo3-Activida5-Carlos-Vasquez.git
+
+---
